@@ -72,7 +72,7 @@ a {
 	background-color: #ECEFF1;
 }
 
-.pf-title::after {
+.heading::after {
 	content: "";
 	display: block;
 	background: #EC715F;
@@ -82,14 +82,14 @@ a {
 
 }
 
-.pf-title {
+.heading {
 	font-size: 32px;
 	color: #000000;
 	padding-top: 90px;
 	text-align: center;
 }
 
-.pf-text {
+.heading-text {
 	font-size: 16px;
 	color: #000000;
 	padding-top: 30px;
@@ -141,4 +141,37 @@ a {
 
 .production:nth-child(3n) {
 	margin-right: 0;
+}
+
+.strength-group {
+	width: 980px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.strength {
+	float: left;
+	width: 320px;
+	height: auto;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.fas {
+	font-size: 60px;
+}
+
+.strength:last-child {
+	margin-right: 0;
+}
+
+.strength-title {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.strength-text {
+	text-align: left;
 }
