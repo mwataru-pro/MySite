@@ -6,15 +6,22 @@
 }
 
 .flex {
-  display: flex;
   background-color: #00c7ec;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  /* Flexレイアウトを行うための親の箱です。先ほどの例のようにdisplay:flexと設定することでFlexコンテナーになります。
+ Flexコンテナーとなった箱は更に、内容の 並ぶ方向(横・縦) / 横方向の整列方法 / 縦方向の整列方法 / 折り返し方法 などを同時に設定することができます。 */
+  align-items: center;
+  /* Flexコンテナー内に直接入っている要素は全て(※)自動的にFlexアイテムとなります。
+ Flexアイテムとなった要素は更に 並び順 / 伸縮比率 / 個別の縦位置などを簡単に設定することができます。 */
 }
 
 /* A > B ※A直下の階層にあるB要素を指定 */
 .flex > div {
-  width: 33%;
-  height: 300px;
-  margin: 10px;
+  margin: 5px;
+  font-size: 30px;
   background-color: #fff;
 }
 
@@ -27,4 +34,5 @@
   padding: 10px;
   color: #fff;
   background-color: #00c7ec;
+  margin-top: 10px;
 }
