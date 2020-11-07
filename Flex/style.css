@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  background-color: #00c7ec;
+}
+
+/* A > B ※A直下の階層にあるB要素を指定 */
+.flex > div {
+  width: 33%;
+  height: 300px;
+  margin: 10px;
+  background-color: #fff;
+}
